@@ -26,8 +26,8 @@
 
 								<p>Message*</p>
 									<textarea name="text" id="text" class="champs"></textarea><br>
-
-								<button type="submit" id="envoi">Envoyer</button>
+								<div id="envoi"><a class="participe" id="linkbouton" href="#">Envoi<i id="boutonform"></i></a></div>
+								<!-- <button type="submit" id="envoi">Envoyer</button> -->
 
 								<div id="erreur"></div>
 								<div id="reponse"></div>
@@ -38,12 +38,12 @@
 									<div class="col-md-6 red10">
 								<span id="tel">
 									<!--icone tel-->
-									<p ><i  class="fa fa-phone fa-2" aria-hidden="true"></i>00-00-00-00-00</p>
+									<p ><i  class="fa fa-phone fa-2" aria-hidden="true" style="font-size: 40px"></i>04 70 08 70 90</p>
 								</span>
 
 								<span>
 									
-									<p><i id="letter" class="fa fa-envelope fa-2" aria-hidden="true"></i>aformac03@aformac.fr</p>
+									<p><i id="letter" class="fa fa-envelope fa-2" aria-hidden="true" style="font-size: 40px"></i>aformac03@aformac.fr</p>
 								</span>
 							           </div>
 									 </div>

@@ -8,7 +8,7 @@
 	        <meta charset="utf-8">
 	</head>
 		<body>
-          <header>
+          <header id="home">
  
       <?php require_once 'include/nav.php' ?>
       
@@ -32,7 +32,7 @@
              <?php require_once 'include/carousel.php' ?>
           </section>
 
-          <section>
+          <section id="groupe">
           <?php require_once 'include/equipe.php' ?>
           </section>
 
@@ -40,7 +40,7 @@
              <?php require_once 'include/map.php'; ?>
           </section>
 
-            <section>
+            <section id="contact">
              <?php require_once 'include/formulaire.php'; ?>
           </section>
 
@@ -49,7 +49,9 @@
         </footer>
       <script src="js/popper.min.js" type="text/JavaScript"></script>
       <script src="js/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
          <script type="text/javascript" src="js/formulaire.js"></script>
+
          <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
